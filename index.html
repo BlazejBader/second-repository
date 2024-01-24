@@ -1,0 +1,47 @@
+<!DOCTYPE html5>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <button id="closeWindowKeuAndValue">x</button>
+      <div id="windowKeuAndValue"></div>
+      <div id="buttons"></div>
+      <div id="mainWrapperSerchPlace">
+        <div id="wrapperSerchPlace">
+          <span class="serchPlace">
+            <label for="serchIndex">Serch index</label>
+            <input type="number" id="findNumber" name="serchIndex" />
+            <button>
+              <img src="images/find.png" alt="" />
+            </button>
+          </span>
+          
+          <span class="serchPlace">
+            <label for="serchName">Serch name</label>
+            <input type="text" name="serchName" /><button>
+              <img src="images/find.png" alt="" />
+            </button>
+          </span>
+        </div>
+      </div>
+
+      <div id="wrapperTable">
+        <div id="wievTable"></div>
+      </div>
+      <div class="wrapper">
+        <div id="wrapperNavTable">
+          <span><button id="removeSelectedLine">Usuń linie</button></span>
+          <span id="navTable"> </span>
+
+          <span id="selectCountRow"></span>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
