@@ -158,7 +158,7 @@ function actionSelectCheckbox(event) {
     'input[type="checkbox"]:checked'
   );
   const removeSelectedLine = document.getElementById("removeSelectedLine");
-  addEventListener("click", removeLine);
+  removeSelectedLine.addEventListener("click", removeLine);
   event.stopPropagation();
 
   if (selectCheckbox.length > 0) {
