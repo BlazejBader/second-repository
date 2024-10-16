@@ -1,12 +1,14 @@
 html {
   box-sizing: border-box;
 }
+
 body {
   background-image: url(images/light\ theme.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
+
 .mainButton {
   padding: 15px;
   border-radius: 5px;
@@ -14,47 +16,52 @@ body {
   box-shadow: 1px 3px 3px 3px;
   background: linear-gradient(to top, #1eafaf, #5be60a);
 }
-.mainButton:hover{
+
+.mainButton:hover {
   scale: calc(1.05);
   background-color: lightcyan;
   color: darkred;
-  
-  border:  inset;
+
+  border: inset;
 }
+
 thead {
   background-color: cadetblue;
   border: 2px solid black;
 }
+
 #constainer {
   display: flex;
   position: relative;
   justify-content: center;
   max-width: 60%;
 }
-#mainWrapperSerchPlace{
+
+#mainWrapperSerchPlace {
   display: flex;
   justify-content: center;
-  
 }
-#wrapperSerchPlace{
+
+#wrapperSerchPlace {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 60%;
 }
-span> button> img{
+
+span>button>img {
   width: 15px;
   height: 15px;
 }
-.serchPlace{
+
+.serchPlace {
   display: flex;
   align-items: center;
   gap: 5px;
 }
 
 #secondTable {
- width: 90%;
-
+  width: 90%;
 }
 
 #windowKeuAndValue {
@@ -72,6 +79,7 @@ span> button> img{
   overflow-y: scroll;
   display: none;
 }
+
 #closeWindowKeuAndValue {
   position: fixed;
   top: 90px;
@@ -82,49 +90,57 @@ span> button> img{
   padding: 3px;
   display: none;
 }
-#closeWindowKeuAndValue:hover{
+
+#closeWindowKeuAndValue:hover {
   scale: calc(1.2);
-  border:cornflowerblue inset;
+  border: cornflowerblue inset;
 }
 
 .buttonPlus {
   padding: 3px;
 }
+
 .buttonBox {
   display: flex;
   align-items: center;
 }
+
 .cellAction {
   display: flex;
   align-items: center;
   gap: 5px;
 }
+
 .iconBox {
   width: 17px;
   height: 17px;
 }
+
 #buttons {
   display: flex;
   justify-content: center;
   text-align: center;
   gap: 10px;
 }
+
 #wievTable {
   display: flex;
   justify-content: space-around;
 }
+
 table {
   width: 60%;
 }
+
 #container {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .wrapper {
   display: flex;
   justify-content: center;
-  
 }
 
 #wrapperNavTable {
@@ -132,10 +148,11 @@ table {
   flex-direction: row-reverse;
   justify-content: space-between;
   background-color: cyan;
-  
+
   opacity: 0.5;
   width: 60%;
 }
+
 #removeSelectedLine {
   display: none;
 }

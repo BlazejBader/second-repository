@@ -4,7 +4,7 @@ const buttons = document.getElementById("buttons");
 const displayTable = document.getElementById("wievTable");
 let tabela = "";
 let rowBody = "";
-const wrapperNavTable = document.getElementById('wrapperNavTable')
+const wrapperNavTable = document.getElementById("wrapperNavTable");
 const displayNavTable = document.getElementById("navTable");
 const keys = Object.keys(data);
 const wievKeyAndValue = document.getElementById("windowKeuAndValue");
@@ -41,7 +41,7 @@ function createNewWindow(event) {
     const cellBodyContent1 = document.createTextNode(value);
     cellBody.appendChild(cellBodyContent);
     cellBody1.appendChild(cellBodyContent1);
-    cellBody1.id='cellBody1'
+    cellBody1.id = "cellBody1";
     cellBody1.style.maxWidth = "150px";
     tableBody.appendChild(rowBody);
   });
@@ -183,15 +183,12 @@ document.addEventListener(
   function (event) {
     if (event.target.tagName === "button" || event.target.tagName === "img") {
       removeThisLine(event);
-    }
-
-    else if (event.target.type === "checkbox") {
+    } else if (event.target.type === "checkbox") {
       actionSelectCheckbox(event);
     }
   },
   true
 );
-
 
 function display(event) {
   const model = event.target.innerHTML;
